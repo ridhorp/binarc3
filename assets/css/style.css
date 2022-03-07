@@ -1,0 +1,58 @@
+.main-screen{
+    width: 100%;
+    background-image: url("../image/main-bg.jpg");
+    height: 940px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #0000007d;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    width: 20%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding: 1rem;
+    
+}
+
+.vertical-center {
+    margin-top: 12em;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 62px;
+}
+
+#btn-cta{
+    font-weight: bold;
+    width: 185px;
+    height: 44px;
+    text-transform: uppercase;
+    margin-top: 62px;
+}
+
+.scroll-down{
+    color: white;
+    text-align: center;
+    margin-top: 14vw;
+}
