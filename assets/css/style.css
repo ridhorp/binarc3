@@ -81,3 +81,27 @@ h1{
     font-size: 80px;
     text-transform: uppercase;
 }
+
+.section-3{
+    width: 100%;
+    background-image: url("../image/features.jpg");
+    height: 940px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-6{
+    margin-top: 12rem;
+}
+
+.accordion-flush .accordion-item {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    color: #FFB548;
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+}
