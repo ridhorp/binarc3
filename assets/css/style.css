@@ -29,18 +29,19 @@
     margin-top: 12em;
 }
 
-h1.main-screen{
+h1#section1{
     font-size: 80px;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
 }
 
-h3.main-screen{
+h3#section1{
     font-size: 24px;
     text-transform: capitalize;
     color: white;
     margin-top: 62px;
+    letter-spacing: 4px;
 }
 
 #btn-cta{
@@ -49,6 +50,7 @@ h3.main-screen{
     height: 44px;
     text-transform: uppercase;
     margin-top: 62px;
+    background-color: #FFB548;
 }
 
 .scroll-down{
@@ -68,7 +70,7 @@ h3.main-screen{
 }
 
 .gallery{
-    margin-top: 12vh;
+    margin-top: 10vh;
 }
 
 h3{
@@ -91,8 +93,8 @@ h1{
     background-position: center;
 }
 
-.col-6{
-    margin-top: 12rem;
+.row#section3{
+    padding-top: 10rem;
 }
 
 .accordion-flush .accordion-item {
@@ -104,4 +106,39 @@ h1{
     color: #FFB548;
     background-color: rgba(0, 0, 0, 0);
     text-transform: uppercase;
+}
+
+.section-4{
+    width: 100%;
+    background-image: url("../image/requirements.png");
+    height: 940px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container#section4{
+    padding-top: 8rem;
+}
+
+.col-6#section4{
+    padding-top: 2rem;
+}
+
+.container#tabel-requirement{
+    padding-top: 2rem;
+}
+
+.row#section4{
+    text-align: center;
+}
+
+p#title-tabel{
+    text-transform: uppercase;
+    color: #FFB548;
+    margin-top: 1rem;
+}
+
+p#body-tabel{
+color: white;
 }
