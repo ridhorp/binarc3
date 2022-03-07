@@ -55,13 +55,14 @@
         </div>
 
         <div class="scroll-down">
-            <p class="mb-0">The Story</p>
-            <img src="assets/image/scroll-down.svg" alt="icon scroll down">
+            <a href="#section-2" id="scroll-down">The Story</a>
+            <br>
+            <a href="#section-2" id="scroll-down"><img src="assets/image/scroll-down.svg" href="#section-2"></a>
         </div>
     </div>
 
     <!-- section 2 about + gallery -->
-    <div class="section-2">
+    <div class="section-2" id="section-2">
         <div class="container-fluid gallery">
             <div class="row row-section-2">
                 <h3 id="section2">What's so special?</h3>
@@ -207,9 +208,46 @@
         </div>
     </div>
 
+    <div class="section-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="assets/image/skull2.png" id="img-skull" alt="">
+                </div>
+                <div class="col-6" id="section6-2">
+                    <h3 id="section6">Want to stay in touch?</h3>
+                    <h1>news letter subscribe</h1>
+                    <p id="section6">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email Address">
+                            <button type="submit" class="btn" id="btn-subscription">Subscribe Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 <footer>
-
+    <div class="container" id="footer">
+        <div class="row border-bottom" id="footer1">
+            <div class="col"></div>
+            <div class="col"><a href="#" id="footer">main</a></div>
+            <div class="col"><a href="#" id="footer">about</a></div>
+            <div class="col-2"><a href="#" id="footer">game features</a></div>
+            <div class="col-2"><a href="#" id="footer">system requirements</a></div>
+            <div class="col"><a href="#"><img src="assets/image/facebook.svg" alt=""></a></div>
+            <div class="col"><a href="#"><img src="assets/image/twitter.svg" alt=""></a></div>
+            <div class="col"><a href="#"><img src="assets/image/youtube.svg" alt=""></a></div>
+            <div class="col"><a href="#"><img src="assets/image/twitch.svg" alt=""></a></div>
+        </div>
+        <div class="row" id="footer2">
+            <div class="col" id="footer2-left">&copy; 2018 Your Games, Inc. All Right Reserved</div>
+            <div class="col" id="footer2-right">PRIVACY POLICY | TERM OF SERVICE | CODE OF CONDUCT</div>
+        </div>
+    </div>
 </footer>
 </html>

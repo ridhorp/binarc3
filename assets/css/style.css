@@ -59,6 +59,12 @@ h3#section1{
     margin-top: 14vw;
 }
 
+a#scroll-down{
+    color: white;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
 .section-2{
     width: 100%;
     background-image: url("../image/the-games-bg.jpg");
@@ -150,7 +156,7 @@ color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(61, 61, 61);
+    background-color: #080A0B;
 }
 
 p#press-quotes{
@@ -189,4 +195,73 @@ img#quote2{
 img#quote3{
     padding-left: 10rem;
     margin-top: 6vh;
+}
+
+.section-6{
+    width: 100%;
+    height: 940px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #080A0B;
+}
+
+#img-skull{
+    padding-top: 4rem;
+}
+
+h3#section6{
+    margin-top: 8rem;
+}
+p#section6{
+    color: white;
+}
+
+#exampleInputEmail1{
+    margin-top: 4rem;
+    width: 20vw;
+    background-color: #292929;
+    border: #292929;
+}
+
+#btn-subscription{
+    width: 8vw;
+    color:#080A0B;
+    background-color: #FFB548;
+    margin-top: 2rem;
+    text-transform: bold;
+}
+
+footer{
+    background-color: #080A0B;
+}
+
+a#footer{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.row#footer1{
+    text-align: right;
+    border-bottom: white;
+    padding-bottom: 2rem;
+}
+
+.row#footer2{
+    padding-top: 2rem;
+}
+
+.container#footer{
+    padding-bottom: 4rem;
+}
+
+.col#footer2-left{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.500);
+}
+
+.col#footer2-right{
+    text-align: right;
+    color: white;
 }
