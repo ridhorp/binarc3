@@ -12,6 +12,7 @@
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-light .navbar-brand {
@@ -41,7 +42,6 @@ h3#section1{
     text-transform: capitalize;
     color: white;
     margin-top: 62px;
-    letter-spacing: 4px;
 }
 
 #btn-cta{
@@ -51,6 +51,7 @@ h3#section1{
     text-transform: uppercase;
     margin-top: 62px;
     background-color: #FFB548;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .scroll-down{
@@ -264,4 +265,18 @@ a#footer{
 .col#footer2-right{
     text-align: right;
     color: white;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
